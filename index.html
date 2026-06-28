@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+        <img src="/assets/header-img.png">
+        </header>
+    <main>
+        <div class="wrap">
+            <h2>Text to translate 👇</h2>
+            <textarea id="text"></textarea>
+            <h2 id="translation-heading">Select language 👇</h2>                        
+            <div id="translation-container">
+                    <div class="radio">
+                    <label for="french">
+                    <input 
+                    type="radio"
+                    id="french"
+                    name="language"
+                    value="french"
+                    />
+                    French 🇫🇷
+                    </label>
+                    
+                    <label for="arabic">
+                    <input 
+                    type="radio"
+                    id="arabic"
+                    name="language"
+                    value="arabic"
+                    />
+                    Arabic 🇸🇦
+                    </label>
+                    
+                    <label for="spanish">
+                    <input 
+                    type="radio"
+                    id="spanish"
+                    name="language"
+                    value="spanish"
+                    />
+                    Spanish 🇪🇸
+                    </label>
+                    
+                    </div>
+            </div>
+                <div id="translation-result"></div>
+                
+                <button id="btn" type="button" class="btn">Translate</button>
+        </div>
+    </main>
+
+        <script src="index.js" type="module"></script>
+    </body>
+</html>

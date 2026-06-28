@@ -1,0 +1,14 @@
+{
+  "name": "Scrim-s00b2n7p0c",
+  "description": "https://scrimba.com/s00b2n7p0c/head",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "openai": "^6.45.0",
+    "vite": "latest"
+  }
+}
