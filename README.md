@@ -1,4 +1,8 @@
 <p align="center">
+  <img src=".github/assets/logo.png" width="112" alt="AI Translation logo" />
+</p>
+
+<p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/header/gradient.svg?title=AI+Translation&subtitle=Translate+text+into+French%2C+Arabic+or+Spanish&logo=googletranslate&mode=dark" />
     <img alt="AI Translation" src="https://shieldcn.dev/header/gradient.svg?title=AI+Translation&subtitle=Translate+text+into+French%2C+Arabic+or+Spanish&logo=googletranslate&mode=light" />
